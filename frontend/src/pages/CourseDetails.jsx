@@ -219,7 +219,7 @@ function CourseDetails() {
 
             {/* will appear only for small size */}
             <div className="flex w-full flex-col gap-4 border-y border-y-richblack-500 py-4 lg:hidden">
-              <p className="space-x-3 pb-4 text-3xl font-semibold text-richblack-5">Rs. {price}</p>
+              <p className="space-x-3 pb-4 text-3xl font-semibold text-richblack-5">Tk. {price}</p>
               <button className="yellowButton" onClick={handleBuyCourse}>Buy Now</button>
               <button onClick={handleAddToCart} className="blackButton">Add to Cart</button>
             </div>
